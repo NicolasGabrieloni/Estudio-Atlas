@@ -1,0 +1,471 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Raleway:wght@700&family=Tai+Heritage+Pro&display=swap');
+
+
+/* HEADER */
+header {
+    background-color: #005885;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid white;
+}
+
+header button {
+    width: 56px;
+}
+
+.navbar-nav {
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+
+
+/* INICIO */
+.banner {
+    background-image: url(./multimedia/PLANTILLAS/inicio.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 635px;
+}
+
+.banner h1 {
+    display: inline-block;
+    margin: 13% 24% auto auto;
+    font-size: 60px;
+    color: #005885;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+/* DONDE ENCONTRARNOS */
+.dondeEncontrarnos {
+    position: relative;
+    background-image: url(./multimedia/PLANTILLAS/donde\ encontrarnos.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1020px;
+}
+
+.mapa {
+    position: relative;
+    display: inline-block;
+    margin-top: 15%;
+    margin-right: 50%;
+}
+
+.mapa h2 {
+    font-size: 70px;
+    color: #005885;
+    font-family: 'Raleway', sans-serif;
+}
+
+.mapa h2 span {
+    color: #F5F5F5;
+    -webkit-text-stroke: 1px black;
+    font-size: 130px;
+}
+
+.place {
+    margin: 40px;
+}
+
+.ubiIcon {
+    font-size: 40px;
+}
+
+iframe {
+    box-shadow: 0px 0px 20px 0px black;
+}
+
+
+
+
+
+/* QUIENES SOMOS */
+.quienesSomos {
+    position: relative;
+    background-image: url(./multimedia/PLANTILLAS/quienes\ somos.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1400px;
+}
+
+.qsInfo {
+    position: relative;
+    display: inline-block;
+    margin-top: 15%;
+    margin-right: 44%;
+    align-items: center;
+}
+
+.qsInfo h3 {
+    font-size: 80px;
+    color: #005885;
+}
+
+.qsInfo h3 span {
+    -webkit-text-stroke: 1px black;
+    color: #F5F5F5;
+    font-size: 120px;
+}
+
+.abogado {
+    align-items: center;
+}
+
+.cv {
+    width: 30px;
+}
+
+
+
+
+
+/* SERVICIOS */
+.contenedor {
+    width: 80%;
+    margin: auto;
+}
+
+.title {
+    display: inline-block;
+    font-size: 120px;
+    color: #005885;
+    margin: 40px;
+}
+
+.title span {
+    -webkit-text-stroke: 1px black;
+    color: #F5F5F5;
+    font-size: 150px;
+}
+
+.servicios {
+    background-image: url(./multimedia/PLANTILLAS/servicios.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1900px;
+}
+
+.service {
+    width: 100%;
+    margin: 20px;
+    margin-left: .2%!important;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
+}
+
+
+.tittle2 {
+    color: #005885;
+    font-size: 40px;
+
+}
+
+
+
+
+/* CONTACTO */
+.contacto {
+    background-image: url(./multimedia/PLANTILLAS/contactos.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1000px;
+}
+
+.title3 {
+    font-size: 120px;
+    color: #005885;
+    display: inline-block;
+    margin-top: 100px;
+}
+
+.formulario {
+    height: 558px;
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #F5F5F5;
+    box-shadow: 0px 0px 20px 0px black;
+}
+
+form {
+    padding: .8rem;
+    overflow: hidden;
+}
+
+.headerIcon {
+    width: 100%;
+    background-color: #005885;
+    overflow: hidden;
+    color: #F5F5F5;
+}
+
+.headerIcon span {
+    font-size: 80px;
+    display: block;
+    text-align: center;
+    padding: 2.5rem;
+}
+
+form label,
+form input,
+form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+form label {
+    font-weight: 700;
+}
+
+form input:not(button),
+form textarea {
+    border: none;
+    border-bottom: 2px solid #005885;
+    margin-bottom: 10px;
+    font-size: 20px;
+    outline: none;
+}
+
+form textarea {
+    min-height: 100px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: #005885;
+    font-size: 20px;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+
+
+/* FOOTER */
+
+footer {
+    background-color: #005885;
+    bottom: 0px;
+    width: 100%;
+    color: white;
+}
+
+.foot {
+    align-items: center;
+}
+
+.adress {
+    margin: 10px;
+}
+
+.social {
+    font-size: 40px;
+}
+
+.social a {
+    margin: 7%;
+    color: white;
+}
+
+.social a:hover {
+    color: white;
+    border-bottom: 2px solid white;
+}
+.phone span a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+/* MEDIA QUERIES */
+@media (max-width: 1024px) {
+    .title{
+        font-size: 70px;
+    }
+    .title span{
+        font-size: 100px;
+    }
+    .infS{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 768px){
+    .banner h1{
+        margin: 28% 5% auto auto;
+    }
+
+    .mapa{
+        margin-top: 35%;
+    }
+    .mapa h2{
+        font-size: 50px;
+    }
+    .mapa h2 span{
+        font-size: 90px;
+    }
+    .mapa iframe{
+        height: 160px;
+        width: 280px;
+    }
+    .mapa h4{
+        font-size: 20px;
+    }
+    .mapa p{
+        font-size: 12px;
+    }
+
+    .qsInfo h3{
+        font-size: 70px;
+    }
+    .qsInfo h3 span{
+        font-size: 110px;
+    }
+    .qsInfo p {
+        margin: 10px;
+        font-size: 13px;
+    }
+    .abogado{
+        margin: 50px;
+    }
+    .cv h4{
+        font-size: 18px;
+    }
+    .cv p{
+        font-size: 11px;
+    }
+
+
+    .title{
+        font-size: 80px;
+    }
+    .title span{
+        font-size: 100px;
+    }
+    .infS{
+        font-size: 12px;
+    }
+
+    .title3{
+        font-size: 100px;
+    }
+}
+
+@media (max-width: 425px){
+    .banner h1{
+        margin: 50% 0% auto auto;
+        font-size: 35px;
+    }
+
+    .dondeEncontrarnos{
+        background-position:0%;
+    }
+    .mapa{
+        margin: 50% auto
+    }
+    .mapa h4{
+        font-size: 20px;
+        margin: 40px;
+    }
+
+    .quienesSomos{
+        background-position:0%;
+    }
+    .qsInfo{
+        margin: 50% auto
+    }
+    .qsInfo h3{
+        font-size: 60px;
+    }
+    .qsInfo h3 span{
+        font-size: 80px;
+    }
+    .qsInfo p {
+        margin: 10px;
+        font-size: 13px;
+    }
+    .abogado{
+        margin: 40px;
+    }
+    .cv h4{
+        font-size: 15px;
+    }
+    .cv p{
+        font-size: 10px;
+    }
+
+
+    .title{
+        font-size: 50px;
+    }
+    .title span{
+        font-size: 70px;
+    }
+    .infS{
+        font-size: 10px;
+    }
+
+    .tittle2{
+        font-size: 30px;
+    }
+    .service .col{
+        flex: 0 0 0%;
+    }
+    .service{
+        flex-direction: column;
+        height: 250px;
+        margin: 16px;
+    }
+
+    
+    .title3{
+        font-size: 60px;
+    }
+    .formulario{
+        width: 270px;
+        height: 460px;
+    }
+    .headerIcon span{
+        font-size: 40px;
+    }
+    form textarea {
+        min-height: 60px;
+    }
+
+    .email{
+        font-size: 10px;
+    }
+    .phone a {
+        font-size: 13px;
+    }
+}
